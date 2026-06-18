@@ -10,9 +10,9 @@ const BannerHome = () => {
   const slides = [
     {
       img: "/images/close-up-heat-pump-outside-home (2).jpeg",
-      alt: "Instalación de Aire Acondicionado",
+      alt: "mantenimiento correctivo de aire acondicionado  ro",
       span: "Especialistas en",
-      title: "Instalación de Aire Acondicionado",
+      title: "mantenimiento correctivo de aire acondicionado ",
       text: "Climatización industrial eficiente para empresas.",
     },
     {

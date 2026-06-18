@@ -46,7 +46,7 @@ const Header = () => {
             <div className="column-logo">
               <Link to="/">
                 <img
-                  src="/icons/hg-04-cropped.svg"
+                  src="/images/logo-principal.png"
                   alt="HM Solutions"
                 />
               </Link>
@@ -117,7 +117,7 @@ const Header = () => {
             <div className="column-logo">
               <Link to="/">
                 <img
-                  src="/icons/hg-04-cropped.svg"
+                  src="/images/logo-principal.png"
                   alt="HM Solutions"
                 />
               </Link>

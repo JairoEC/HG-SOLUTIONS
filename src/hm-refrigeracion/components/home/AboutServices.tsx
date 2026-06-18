@@ -19,7 +19,7 @@ const AboutServices = () => {
       id: "item-3",
     },
     {
-      img: "/images/close-up-ventilation-system.jpeg",
+      img: "/images/chiller.jpg",
       title: "Equipos de aire acondicionado Chiller",
       delay: 300,
       id: "item-4",
