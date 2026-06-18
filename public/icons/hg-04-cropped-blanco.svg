@@ -1,16 +1,12 @@
 <svg xml:space="preserve" style="max-height: 500px" viewBox="159.52342693409742 103.104 679.5582808022923 498.23999999999995" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Capa_1" version="1.1" width="679.5582808022923" height="498.23999999999995">
 <defs>
-	<!-- Definición de tu degradado diagonal blanco a celeste -->
-	<linearGradient id="degradadoDiagonal" x1="0%" y1="0%" x2="100%" y2="100%">
-		<stop offset="0%" stop-color="#FFFFFF" />
-		<stop offset="100%" stop-color="#87CEEB" />
-	</linearGradient>
+	<!-- Se eliminó el degradado innecesario para optimizar el código -->
 </defs>
 <style type="text/css">
-	/* Se cambió el color fijo de todas las piezas para que usen el degradado */
-	.st0{fill:url(#degradadoDiagonal);}
-	.st1{fill:url(#degradadoDiagonal);}
-	.st2{fill:url(#degradadoDiagonal);}
+	/* Se cambió el fill de url(#degradadoDiagonal) a #FFFFFF */
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;}
 	.st3{font-family:'Poppins-SemiBoldItalic';}
 	.st4{font-size:56.4113px;}
 	.st5{fill:#1D1D1B;}
