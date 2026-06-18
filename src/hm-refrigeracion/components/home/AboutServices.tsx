@@ -1,31 +1,31 @@
 const AboutServices = () => {
   const services = [
     {
-      img: "/images/vecteezy_compressors-air-conditioners-on-the-roof-of-the-office_17020864.jpg",
+      img: "/images/close-up-heat-pump-outside-home (3).jpeg",
       title: "Equipos de aire acondicionado VRF",
       delay: 0,
       id: "item-1",
     },
     {
-      img: "/images/aire-acondicionado-convencional.webp",
+      img: "/images/full-shot-couple-dog-home.jpeg",
       title: "Equipos de aire acondicionado convencional",
       delay: 100,
       id: "item-2",
     },
     {
-      img: "/images/sistemas-de-aire-acondicionado-de-precisic3b3n.jpg",
+      img: "/images/close-up-heat-pump-outside-home.jpeg",
       title: "Equipos de aire acondicionado de precisión",
       delay: 200,
       id: "item-3",
     },
     {
-      img: "/images/vecteezy_industry-engineer-under-checking-the-industry-cooling-tower_6668318.jpg",
+      img: "/images/close-up-ventilation-system.jpeg",
       title: "Equipos de aire acondicionado Chiller",
       delay: 300,
       id: "item-4",
     },
     {
-      img: "/images/vecteezy_empty-industrial-refrigerator-showing-metal-shelves-and-air_68012459.jpg",
+      img: "/images/industrial_refrigeration.jpg",
       title: "Equipos de refrigeración industrial",
       delay: 400,
       id: "item-5",
@@ -42,7 +42,7 @@ const AboutServices = () => {
               data-aos="fade-right"
               data-aos-delay="100"
             >
-              <img src="/images/iimagen-nosotros.jpg" alt="Nosotros" />
+              <img src="/images/engineer-arriving-location-help-apprentice-mend-busted-electric-coils-damaged-external-air-conditioner-technicians-comissioned-prevent-internal-parts-breakdowns-ensuring-timely-repair.jpeg" alt="Nosotros" />
             </div>
 
             <div

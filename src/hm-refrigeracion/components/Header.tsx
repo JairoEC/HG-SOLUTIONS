@@ -1,24 +1,34 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { menuItems } from "../../data/data";
 
-const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+type MenuItem = {
+  path: string;
+  label: string;
+};
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState<boolean>(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
+
+  const toggleMenu = (): void => {
+    setMenuOpen((prev) => !prev);
   };
 
-  const renderMenu = (closeMenu = false) =>
-    menuItems.map((item) => (
+  const closeMenu = (): void => {
+    setMenuOpen(false);
+  };
+
+  const renderMenu = (isMobile = false) =>
+    menuItems.map((item: MenuItem) => (
       <li key={item.path}>
         <Link
           to={item.path}
-          onClick={
-            closeMenu
-              ? () => setMenuOpen(false)
-              : undefined
-          }
+          onClick={isMobile ? closeMenu : undefined}
         >
           {item.label}
         </Link>
@@ -27,20 +37,22 @@ const Header = () => {
 
   return (
     <header>
-      {/* Header Principal */}
+      {/* HEADER PRINCIPAL */}
       <div id="container-module-header">
         <div className="center">
           <div className="row-header">
 
+            {/* LOGO */}
             <div className="column-logo">
               <Link to="/">
                 <img
-                  src="/images/logo-principal.png"
+                  src="/icons/hg-04-cropped.svg"
                   alt="HM Solutions"
                 />
               </Link>
             </div>
 
+            {/* MENU DESKTOP */}
             <div className="column-menu">
               <div className="menu-menu-container">
                 <ul className="menu">
@@ -49,8 +61,9 @@ const Header = () => {
               </div>
             </div>
 
+            {/* HAMBURGER */}
             <div
-              className="menu-mobile"
+              className={`menu-mobile ${menuOpen ? "active" : ""}`}
               onClick={toggleMenu}
             >
               <span></span>
@@ -62,7 +75,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Menú Mobile */}
+      {/* MENU MOBILE */}
       <div
         id="container-mobile"
         className={menuOpen ? "active" : ""}
@@ -80,9 +93,7 @@ const Header = () => {
             </div>
 
             <div className="column-date-mobile">
-              <a href="tel:938420878">
-                938420878
-              </a>
+              <a href="tel:938420878"></a>
 
               <a
                 href="https://api.whatsapp.com/send?phone=51938420878"
@@ -98,16 +109,15 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Header Sticky */}
+      {/* HEADER STICKY */}
       <div id="container-module-sticky">
         <div className="center">
-
           <div className="row-header">
 
             <div className="column-logo">
               <Link to="/">
                 <img
-                  src="/images/logo-principal.png"
+                  src="/icons/hg-04-cropped.svg"
                   alt="HM Solutions"
                 />
               </Link>
@@ -122,7 +132,7 @@ const Header = () => {
             </div>
 
             <div
-              className="menu-mobile"
+              className={`menu-mobile ${menuOpen ? "active" : ""}`}
               onClick={toggleMenu}
             >
               <span></span>
@@ -131,7 +141,6 @@ const Header = () => {
             </div>
 
           </div>
-
         </div>
       </div>
     </header>

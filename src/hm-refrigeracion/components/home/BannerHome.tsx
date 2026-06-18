@@ -9,28 +9,28 @@ import "swiper/css/effect-fade";
 const BannerHome = () => {
   const slides = [
     {
-      img: "/images/vecteezy_high-quality-air-conditioning-units-lined-up-modern_69689536.jpg",
+      img: "/images/close-up-heat-pump-outside-home (2).jpeg",
       alt: "Instalación de Aire Acondicionado",
       span: "Especialistas en",
       title: "Instalación de Aire Acondicionado",
       text: "Climatización industrial eficiente para empresas.",
     },
     {
-      img: "/images/vecteezy_technician-are-checking-outdoor-air-conditioner_1226758.jpg",
+      img: "/images/team-replacing-old-air-conditioner.jpeg",
       alt: "Mantenimiento de Aire Industrial",
       span: "Expertos en",
       title: "Mantenimiento de Aire Industrial",
       text: "Mantenimiento industrial que maximiza rendimiento.",
     },
     {
-      img: "/images/vecteezy_technician-is-installing-air-conditioner-during-hot-season_9340612.jpg",
+      img: "/images/medium-shot-smiley-people-wearing-helmets.jpeg ",
       alt: "Correctivo de Aire Acondicionado Convencional",
       span: "Especialistas en",
       title: "Correctivo de Aire Acondicionado Convencional",
       text: "Nos encargamos de la comodidad de tu hogar.",
     },
     {
-      img: "/images/sistemas-de-aire-acondicionado-de-precisic3b3n.jpg",
+      img: "/images/close-up-heat-pump-outside-home.jpeg",
       alt: "Aire Acondicionado de Precisión",
       span: "Especialistas en",
       title: "Aire Acondicionado de Precisión",

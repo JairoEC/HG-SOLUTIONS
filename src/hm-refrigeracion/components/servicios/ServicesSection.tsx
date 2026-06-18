@@ -5,31 +5,31 @@ const ServicesSection = () => {
     {
       title: "Equipos de aire acondicionado VRF",
       alt: "Equipos de aire acondicionado VRF",
-      img: "images/vecteezy_compressors-air-conditioners-on-the-roof-of-the-office_17020864.jpg",
+      img: "images/close-up-heat-pump-outside-home (3).jpeg",
       slug: "vrf",
     },
     {
       title: "Equipos de aire acondicionado convencional",
       alt: "Equipos de aire acondicionado convencional",
-      img: "images/aire-acondicionado-convencional.webp",
+      img: "images/full-shot-couple-dog-home.jpeg",
       slug: "convencional",
     },
     {
       title: "Equipos de aire acondicionado de precisión",
       alt: "Equipos de aire acondicionado de precisión",
-      img: "images/sistemas-de-aire-acondicionado-de-precisic3b3n.jpg",
+      img: "images/close-up-heat-pump-outside-home.jpeg",
       slug: "precision",
     },
     {
       title: "Equipos de aire acondicionado Chiller",
       alt: "Equipos de aire acondicionado Chiller",
-      img: "images/vecteezy_industry-engineer-under-checking-the-industry-cooling-tower_6668318.jpg",
+      img: "images/close-up-ventilation-system.jpeg",
       slug: "chiller",
     },
     {
       title: "Equipos de refrigeración industrial",
       alt: "Equipos de refrigeración industrial",
-      img: "images/vecteezy_empty-industrial-refrigerator-showing-metal-shelves-and-air_68012459.jpg",
+      img: "images/industrial_refrigeration.jpg",
       slug: "refrigeracion-industrial",
     },
   ];
@@ -39,8 +39,7 @@ const ServicesSection = () => {
       <div className="center">
         <div className="row-services">
           <div className="title-services" data-aos="fade-up">
-            <span>Nuestros</span>
-            <h1>Servicios</h1>
+            <center><span>Nuestros Servicios</span></center>
           </div>
 
           <div className="groups-services">

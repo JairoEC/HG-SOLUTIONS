@@ -93,7 +93,7 @@ export const DetailSection = ({
               )}
             </div>
 
-            <div className="image">
+            <div className="new-image">
               <img src={mainContent.image} alt={mainContent.title} />
             </div>
           </div>
@@ -125,7 +125,7 @@ export const DetailSection = ({
       <div id="container-module-facility">
         <div className="center">
           <div className="row-facility">
-            <div className="image">
+            <div className="new-image2">
               <img src={facility.image} alt={facility.title} />
             </div>
 

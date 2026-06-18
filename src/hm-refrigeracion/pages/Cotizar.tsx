@@ -4,7 +4,7 @@ import AOS from "aos";
 import Header from "../components/Header";
 
 import Footer from "../components/Footer";
-import CotizarSection from "../components/cotizar/CotizarSection";
+import ContactQuote from "../components/home/ContactQuote";
 
 const Cotizar = () => {
   useEffect(() => {
@@ -22,7 +22,13 @@ const Cotizar = () => {
 
       <main>
         <section>
-          <CotizarSection />
+          <div id="container-module-bannerCotizar">
+            <img
+              src="images/worker-works-air-conditioner.jpeg"
+              alt="Banner Cotizar"
+            />
+          </div>
+          <ContactQuote />
         </section>
       </main>
 

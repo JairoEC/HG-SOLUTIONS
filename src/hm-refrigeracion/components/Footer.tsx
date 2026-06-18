@@ -13,18 +13,16 @@ const Footer = () => {
 
                 <div className="logo-footer">
                   <img
-                    src="/images/logo-blanco-hg.png"
+                    src="/icons/hg-04-cropped.svg"
                     alt="HG SAC"
                   />
                 </div>
 
                 <p>
-                  Garantizamos el éxito de esta política
-                  mediante la medición de nuestro desempeño,
-                  con enfoque de cumplimiento,
-                  rendimiento y calidad.
+                  Aseguramos el cumplimiento de esta política mediante la evaluación constante de nuestro desempeño, enfocándonos en la eficiencia, la calidad y el logro de resultados.
                 </p>
 
+                {/*
                 <div className="social-media">
                   <p>Síganos</p>
 
@@ -73,8 +71,9 @@ const Footer = () => {
                     </ul>
                   </div>
                 </div>
+                 */}
 
-              </div>
+              </div> 
 
               <div className="column-footer-2">
 
@@ -116,39 +115,37 @@ const Footer = () => {
 
                 <h3>Servicios</h3>
 
-                <ul>
+               <ul>
+                <li>
+                  <Link to="/servicios-detalle/vrf">
+                    Equipos de aire acondicionado VRF
+                  </Link>
+                </li>
 
-                  <li>
-                    <a href="#">
-                      Equipos de aire acondicionado VRF
-                    </a>
-                  </li>
+                <li>
+                  <Link to="/servicios-detalle/convencional">
+                    Equipos de aire acondicionado convencional
+                  </Link>
+                </li>
 
-                  <li>
-                    <a href="#">
-                      Equipos de aire acondicionado convencional
-                    </a>
-                  </li>
+                <li>
+                  <Link to="/servicios-detalle/precision">
+                    Equipos de aire acondicionado de precisión
+                  </Link>
+                </li>
 
-                  <li>
-                    <a href="#">
-                      Equipos de aire acondicionado de precisión
-                    </a>
-                  </li>
+                <li>
+                  <Link to="/servicios-detalle/chiller">
+                    Equipos de aire acondicionado Chiller
+                  </Link>
+                </li>
 
-                  <li>
-                    <a href="#">
-                      Equipos de aire acondicionado Chiller
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#">
-                      Equipos de refrigeración industrial
-                    </a>
-                  </li>
-
-                </ul>
+                <li>
+                  <Link to="/servicios-detalle/refrigeracion-industrial">
+                    Equipos de refrigeración industrial
+                  </Link>
+                </li>
+              </ul>
 
               </div>
 
@@ -177,12 +174,12 @@ const Footer = () => {
                   </a>
                 </div>
 
-                <div className="contact-info">
+                {/* <div className="contact-info">
                   <a href="#">
                     <i className="icon-book"></i>
                     Libro de reclamaciones
                   </a>
-                </div>
+                </div> */}
 
               </div>
 
@@ -200,20 +197,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <a
-        href="https://web.whatsapp.com/send?phone=51938420878"
-        target="_blank"
-        rel="noreferrer"
-        className="floatWhatsapp desktop"
-      />
-
-      <a
-        href="https://api.whatsapp.com/send?phone=51938420878"
-        target="_blank"
-        rel="noreferrer"
-        className="floatWhatsapp mobile"
-      />
     </footer>
   );
 };

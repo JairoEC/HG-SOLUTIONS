@@ -2,7 +2,7 @@ const BannerInternal = () => {
   return (
     <div id="container-module-bannerInternal">
       <img
-        src="images/aire-acondicionado-convencional.webp"
+        src="images/worker-works-air-conditioner.jpeg"
         alt="Banner interno"
       />
 
@@ -18,7 +18,7 @@ const BannerInternal = () => {
         </h2>
 
         <div className="btn-bannerInternal">
-          <a href="#">Nuestro brochure</a>
+            {/* <a href="#">Nuestro brochure</a> */}
         </div>
       </div>
     </div>
