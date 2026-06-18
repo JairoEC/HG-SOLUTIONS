@@ -13,7 +13,7 @@ const Footer = () => {
 
                 <div className="logo-footer">
                   <img
-                    src="/icons/hg-04-cropped.svg"
+                    src="/icons/hg-04-cropped-blanco.svg"
                     alt="HG SAC"
                   />
                 </div>
