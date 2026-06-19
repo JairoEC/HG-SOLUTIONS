@@ -26,7 +26,7 @@ export const servicesData = [
       subtitle: "Sistemas VRF",
       button: {
         label: "COTIZAR",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "primary",
       },
     },
@@ -40,7 +40,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -49,7 +49,7 @@ export const servicesData = [
     logosButtons: [
       {
         label: "CONTÁCTENOS",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "desktop",
       },
     ],
@@ -63,7 +63,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -103,7 +103,7 @@ export const servicesData = [
       subtitle: "Acondicionado convencional",
       button: {
         label: "COTIZAR",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "primary",
       },
     },
@@ -117,7 +117,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -126,7 +126,7 @@ export const servicesData = [
     logosButtons: [
       {
         label: "CONTÁCTENOS",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "desktop",
       },
     ],
@@ -140,7 +140,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -180,7 +180,7 @@ export const servicesData = [
       subtitle: "Acondicionado de precisión",
       button: {
         label: "COTIZAR",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "primary",
       },
     },
@@ -194,7 +194,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -203,7 +203,7 @@ export const servicesData = [
     logosButtons: [
       {
         label: "CONTÁCTENOS",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "desktop",
       },
     ],
@@ -217,7 +217,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -257,7 +257,7 @@ export const servicesData = [
       subtitle: "Sistemas Chiller",
       button: {
         label: "COTIZAR",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "primary",
       },
     },
@@ -271,7 +271,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -280,7 +280,7 @@ export const servicesData = [
     logosButtons: [
       {
         label: "CONTÁCTENOS",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "desktop",
       },
     ],
@@ -294,7 +294,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -334,7 +334,7 @@ export const servicesData = [
       subtitle: "Refrigeración industrial",
       button: {
         label: "COTIZAR",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "primary",
       },
     },
@@ -348,7 +348,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
@@ -357,7 +357,7 @@ export const servicesData = [
     logosButtons: [
       {
         label: "CONTÁCTENOS",
-        link: "https://wa.me/51938420878",
+        link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
         variant: "desktop",
       },
     ],
@@ -371,7 +371,7 @@ export const servicesData = [
       buttons: [
         {
           label: "CONTÁCTENOS",
-          link: "https://wa.me/51938420878",
+          link: "https://api.whatsapp.com/send?phone=51980596485&text=Hola+estoy+interesado+en+sus+servicios+de+refrigeracion+.+Me+da+mas+informacion+por+favor",
           variant: "desktop",
         },
       ],
